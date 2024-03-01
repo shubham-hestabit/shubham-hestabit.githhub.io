@@ -1,0 +1,159 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+body {
+  background-color: #151E3D;
+  color: aqua;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-link {
+  color: aqua;
+}
+
+.custom-background {
+  background-color: #001429;
+}
+
+.section-title {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+.my-intro {
+  font-size: 40px;
+  text-align: justify;
+  text-shadow: 1px 1px 2px black;
+}
+
+.my-intro:hover,
+.profile-info:hover,
+.section-title:hover {
+  text-shadow: 1px 1px 5px teal;
+}
+
+.profile-picture {
+  width: 380px;
+  height: 380px;
+  overflow: hidden;
+  margin-left: 90px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 5px solid aqua;
+  box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.profile-picture img {
+  width: 100%;
+  height: auto;
+}
+
+.profile-info {
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+#about {
+  border: 1px solid aqua;
+}
+
+.left-space {
+  margin-left: 4px;
+}
+
+.right-space {
+  margin-left: -5px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  table-layout: auto;
+}
+
+.project-card {
+  box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 0.6), inset 5px 5px 9px rgba(0, 0, 0, 0.2);
+  border: 1px solid aqua;
+  border-radius: 5px;
+  color: aqua;
+}
+
+.project-header {
+  border-bottom: 1px solid aqua;
+}
+
+.project-title {
+  color: lightcoral;
+  cursor: pointer;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px black;
+}
+
+.project-title:hover {
+  color: chocolate;
+}
+
+.project-description {
+  height: 370px;
+  overflow-y: auto;
+}
+
+.project-description::-webkit-scrollbar {
+  width: 4px;
+}
+
+.project-description::-webkit-scrollbar-track {
+  background-color: grey;
+  border-radius: 8px;
+}
+
+.project-description::-webkit-scrollbar-thumb {
+  background-color: #031431;
+  border-radius: 8px;
+}
+
+.project-footer {
+  text-align: center;
+  color: aqua;
+  border-top: 1px solid aqua;
+}
+
+.contact-card {
+  border: 1px solid aqua;
+}
+
+.contactImg {
+  width: 100%;
+  height: 400px;
+}
+
+.social-icons a {
+  cursor: pointer;
+  text-decoration: none;
+  color: aqua;
+  display: flex;
+  margin-top: 20px;
+  overflow-x: auto;
+  align-items: center;
+}
+
+.social-icons a:hover {
+  color: #46a9e2;
+  font-size: 33px;
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 8px;
+}
